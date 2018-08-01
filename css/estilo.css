@@ -1,0 +1,246 @@
+
+#principal{
+  
+	width: 900px;
+	height: auto; vertical-align: bottom;
+	border: 1px solid #000;
+	margin: auto;
+    background-color: yellowgreen;
+}
+body{
+    background-color: yellowgreen;
+   font-size: 14px; 
+}
+
+header{
+    display: inline
+	width: 900px;
+	height: 110px;
+	border: 0px solid #000;
+    background-color: red;
+}
+
+#logo{
+	width: 900px;
+	height: 20px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 40px;
+}
+
+.sub-titulo{
+	font-size: 30px;
+	margin-top: -25px;
+}
+.titulo{
+	margin-top: 15px;
+	font-size: 50px;
+    text-align: center;
+}
+
+.sub-titulo{
+	font-size: 20px;
+	margin-top: -30px;
+    text-align: center;
+}
+nav{
+	background: green; /* SIN TRANSPARENCIA: rgb(210, 221, 240); */ /* CON TRANSPARENCIA: rgba(165, 186, 224, .5); */ /* CON TRANSPARENCIA: #a5bae0 */ /* ANTES ERA rgba(255, 255, 255, .5) */
+	margin: 0px; /* 10px 5px 0px 5px */
+	padding: 5px 15px;
+	text-align: right;
+	border-radius: 0px; /* 10px */
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+	position: relative;
+	z-index: 20;
+}
+
+nav li{
+	display: inline-block;
+	list-style: none;
+	margin: 15px 25px; /* NO HABIA NADA, ESTO ES NUEVO */
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transition: all .9s ease;
+}
+
+nav li:hover{
+	color: yellow; /* QUEDA SIN EFECTO AL ESPECIFICARSE: .menu li li a:hover */
+	border-radius: 10px;
+	transform: translateY(-10px);
+	box-shadow: 300px 0 #60c659 inset, /* 300px 0 #ff9338 inset */
+				-300px 0 #60c659 inset; /* -300px 0 #ff9338 inset */
+}
+
+nav li li a:hover{
+	color: yellow; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+
+nav li ul{
+	display: none;
+}
+
+nav li:hover > ul{
+	display: block;
+}
+
+nav li{
+	position: relative;
+}
+
+nav li ul{
+	position: absolute;
+}
+
+nav li li{
+	background: #f0e68c;
+	display: block;
+	font-size: 11px;
+	width: 200px;
+	top: 100%;
+	margin: 15px; /* 10px */
+	border-radius: 3px; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+
+nav li li:hover{
+	background: #f0e68c;
+	transform: translateX(15px);
+	box-shadow: 250px 0 #1cce28 inset;
+}
+#slide{
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+}
+
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid;
+	margin-top: 10px;
+    background-color: ivory;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+.uno ul{}
+
+.uno ul li{
+	list-style: none;
+	float: inherit;
+}
+
+.uno ul li a{
+	text-decoration: none;
+	padding: 7px 10px;
+	border: 1px solid green;
+	color: blue; 
+}
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: red;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color;
+    background-color: ivory;
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 7px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: 
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+}
+/* imagenes ============*/
+.imagenes2{}
+
+.imagenes2 ul li{
+    list-style: none;
+    float: left;
+  
+}
+.imagenes2{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 250px;
+    background: green;
+}
+.imgenes2.list-image li{
+    margin: 5px;
+    margin-bottom: 5px;
+} 
+.imagenes2.list-image li image{
+    position: relative;
+    width: 250px;
+    height: 150px,
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* transporte ============*/
+    
+  
